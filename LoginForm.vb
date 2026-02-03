@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class LoginForm
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         If txtUsername.Text = "admin" And txtPassword.Text = "admin" Then
             GroupBox1.Visible = False

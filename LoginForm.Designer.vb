@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class LoginForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -79,7 +79,7 @@ Partial Class Form1
         'btnExit
         '
         Me.btnExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExit.Location = New System.Drawing.Point(733, 382)
+        Me.btnExit.Location = New System.Drawing.Point(732, 425)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(147, 37)
         Me.btnExit.TabIndex = 5
@@ -89,7 +89,7 @@ Partial Class Form1
         'btnReset
         '
         Me.btnReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnReset.Location = New System.Drawing.Point(580, 382)
+        Me.btnReset.Location = New System.Drawing.Point(579, 425)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(147, 37)
         Me.btnReset.TabIndex = 4
@@ -99,7 +99,7 @@ Partial Class Form1
         'btnLogin
         '
         Me.btnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogin.Location = New System.Drawing.Point(427, 382)
+        Me.btnLogin.Location = New System.Drawing.Point(426, 425)
         Me.btnLogin.Name = "btnLogin"
         Me.btnLogin.Size = New System.Drawing.Size(147, 37)
         Me.btnLogin.TabIndex = 3
@@ -141,8 +141,8 @@ Partial Class Form1
         Me.TabPage3.BackColor = System.Drawing.SystemColors.Control
         Me.TabPage3.Location = New System.Drawing.Point(4, 33)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.TabPage3.Size = New System.Drawing.Size(1340, 348)
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(1340, 689)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Product Maintenance"
         '
@@ -151,8 +151,8 @@ Partial Class Form1
         Me.TabPage2.BackColor = System.Drawing.SystemColors.Control
         Me.TabPage2.Location = New System.Drawing.Point(4, 33)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.TabPage2.Size = New System.Drawing.Size(1340, 348)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(1340, 689)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Category Maintenance"
         '
@@ -161,7 +161,7 @@ Partial Class Form1
         Me.TabPage1.BackColor = System.Drawing.SystemColors.Control
         Me.TabPage1.Location = New System.Drawing.Point(4, 33)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage1.Size = New System.Drawing.Size(1340, 689)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "File Maintenance"
@@ -183,44 +183,44 @@ Partial Class Form1
         '
         'TabPage4
         '
-        Me.TabPage4.Location = New System.Drawing.Point(4, 34)
-        Me.TabPage4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 33)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(2)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.TabPage4.Size = New System.Drawing.Size(1325, 347)
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(2)
+        Me.TabPage4.Size = New System.Drawing.Size(1340, 689)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Supplier Maintenance"
         Me.TabPage4.UseVisualStyleBackColor = True
         '
         'TabPage5
         '
-        Me.TabPage5.Location = New System.Drawing.Point(4, 34)
-        Me.TabPage5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 33)
+        Me.TabPage5.Margin = New System.Windows.Forms.Padding(2)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(1325, 347)
+        Me.TabPage5.Size = New System.Drawing.Size(1340, 689)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "Vat Maintenance"
         Me.TabPage5.UseVisualStyleBackColor = True
         '
         'TabPage6
         '
-        Me.TabPage6.Location = New System.Drawing.Point(4, 34)
-        Me.TabPage6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 33)
+        Me.TabPage6.Margin = New System.Windows.Forms.Padding(2)
         Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Size = New System.Drawing.Size(1325, 347)
+        Me.TabPage6.Size = New System.Drawing.Size(1340, 689)
         Me.TabPage6.TabIndex = 5
         Me.TabPage6.Text = "Discount Maintenance"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
-        'Form1
+        'LoginForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1370, 749)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.TabControl1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.Name = "Form1"
+        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Name = "LoginForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login Form"
         Me.GroupBox1.ResumeLayout(False)
